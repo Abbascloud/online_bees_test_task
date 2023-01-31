@@ -1,4 +1,3 @@
-export * from "./BottomMenu";
 export * from "./ProfileInfo";
 export * from "./ProfileNavigateButton";
 export * from "./TextContent";

@@ -22,6 +22,11 @@ export const theme = {
     },
   },
   pallete: {
+    menuIcons: {
+      activeColor: "#5F2EEA",
+      defaultColor: "#FFFFFF",
+      defaultborder: "#6E7191",
+    },
     backgrounds: {
       successBg: "#DFFFF6",
       background: "#EFF0F7",

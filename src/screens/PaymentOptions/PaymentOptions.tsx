@@ -2,6 +2,7 @@ import { View } from "react-native";
 
 import { TextContent, EVariants, PaymentOptionItem } from "../../components";
 import { PAYMENT_OPTIONS } from "../../const";
+
 import { styles } from "./paymentOptions.styles";
 export function PaymentOptions() {
   return (

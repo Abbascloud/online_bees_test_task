@@ -4,16 +4,17 @@ import { useNavigation } from "@react-navigation/native";
 import { Forvard } from "../../../assets/profile";
 import { EVariants, TextContent } from "../TextContent";
 import { styles } from "./profileNavigationButton.styles";
+import { SCREENS } from "../../navigation/screens.enum";
 export function ProfileInfoNavigate() {
   const navigation = useNavigation();
   return (
     <View
-      onTouchStart={() => navigation.navigate("Payment options" as never)}
+      onTouchStart={() => navigation.navigate(SCREENS.paymentOptions as never)}
       style={styles.profileNavigate}
     >
       <View>
         <TextContent
-          text="Payment options"
+          text={SCREENS.paymentOptions}
           variant={EVariants.smallTitle}
           style={styles.profileNavigate__title}
         />

@@ -1,6 +1,5 @@
-import Chat from "./Chat.png";
-import Profile from "./Profile.png";
-import Work from "./Work.png";
-import Task from "./Task.png";
-
-export { Chat, Profile, Work, Task };
+import { SvgComponent as SearchIcon } from "./Search";
+import { SvgComponent as MessageIcon } from "./MessageIcon";
+import { SvgComponent as TaskIcon } from "./TaskIcon";
+import { SvgComponent as ProfileIcon } from "./ProfileIcon";
+export { SearchIcon, MessageIcon, TaskIcon, ProfileIcon };

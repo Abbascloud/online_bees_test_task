@@ -1,7 +1,7 @@
 import { View } from "react-native";
 
-import { ProfileInfo, BottomMenu, ProfileInfoNavigate } from "../../components";
-import { MENU_ITEMS } from "../../const/bottomMenuItem.const";
+import { ProfileInfo, ProfileInfoNavigate } from "../../../components";
+
 import { styles } from "./profile.styles";
 
 export function Profile() {
@@ -16,7 +16,6 @@ export function Profile() {
         />
         <ProfileInfoNavigate />
       </View>
-      <BottomMenu menuItems={MENU_ITEMS} />
     </View>
   );
 }

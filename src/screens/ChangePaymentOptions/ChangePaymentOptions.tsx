@@ -7,14 +7,15 @@ import {
   OptionsList,
   Button,
 } from "../../components";
-import { OPTIONS } from "../../const/optionList.const";
+
 import { styles } from "./changePaymentOptions.style";
+import { OPTIONS } from "../../const";
 
 export function ChangePaymentOptions() {
   const navigation = useNavigation();
 
   const buttonHeandler = () => {
-    navigation.navigate("Profile" as never);
+    navigation.navigate("Home" as never);
   };
 
   return (
